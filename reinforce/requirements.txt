@@ -1,0 +1,32 @@
+# Core dependencies for REINFORCE implementation
+gymnasium>=0.29.0
+gymnasium[atari,accept-rom-license]
+ale-py>=0.8.1
+
+# Deep learning framework
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Scientific computing
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# Parallel processing
+cloudpickle>=2.0.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipython>=7.0.0
+JSAnimation>=0.1
+
+# Progress tracking
+progressbar2>=4.0.0
+
+# Optional: for better performance and compatibility
+scipy>=1.7.0
+pillow>=8.0.0
+
+# Development tools (optional)
+pytest>=6.0.0
+black>=22.0.0
+flake8>=4.0.0
